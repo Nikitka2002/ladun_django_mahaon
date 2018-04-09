@@ -1,0 +1,17 @@
+nav{
+    background-color: #4682B4;
+}
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+.page-footer {
+    padding-top: 20px;
+    background-color: #4682B4;
+}
