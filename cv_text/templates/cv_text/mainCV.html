@@ -1,5 +1,16 @@
 {% extends "mainApp/wrapper.html" %}
 
 {% block content %}
+<div class="container">
+    <h4>Компьютерное зрение</h4>
+    {% for text in text %}
+    <p><b>{{ text.text }}</b></p>
+    {% endfor %}
+</div>
+<div class="center">
+    <a class="waves-effect waves-light btn-large blue darken-2" href="/computer_vision/viola_jones">Метод Viola-Jones</a>
+    <a class="waves-effect waves-light btn-large blue darken-2">Обучение</a>
+</div>
+
 
 {% endblock %}
